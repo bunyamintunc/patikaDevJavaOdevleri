@@ -4,7 +4,7 @@ public class Ring {
     Booksor booksorIki;
     int min;
     int max;
-    double baslamaİhtimali=Math.random()*100;
+    double baslamaİhtimali=Math.random()*1;
     public Ring(Booksor boksorBir,Booksor boksorIki,int max,int min){
         this.booksorBir=boksorBir;
         this.booksorIki=boksorIki;
